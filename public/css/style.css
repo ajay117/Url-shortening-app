@@ -118,7 +118,7 @@ header {
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
-    background: hsl(257, 27%, 26%) url('/images/bg-shorten-desktop.svg') no-repeat;
+    background: hsl(257, 27%, 26%) url('../images/bg-shorten-desktop.svg') no-repeat;
     background-size: cover;
     width: 100%;
 }
@@ -262,7 +262,7 @@ header {
     font-size: .8rem;
 }
 .preFooter {
-    background: hsl(257, 27%, 26%) url('/images/bg-boost-desktop.svg') no-repeat;
+    background: hsl(257, 27%, 26%) url('../images/bg-boost-desktop.svg') no-repeat;
     background-size: cover;
     width: 100%;
     padding: 2.5rem 2rem;
