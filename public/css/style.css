@@ -39,19 +39,15 @@ header {
 
 }
 
-#nav ul{
+#nav .navLinks{
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
-#nav ul div {
+#nav .navLinks div {
     display: flex;
     align-items: center;
     gap: 2rem;
-}
-#nav li {
-    list-style-type: none;
-    text-decoration: none;
 }
 #nav a {
     text-decoration: none;
@@ -381,7 +377,7 @@ header {
     padding: 2rem 1.5rem;
     justify-content: space-between;
    }
-   #nav ul {
+   #nav .navLinks {
     display: none;
    }
    #nav #mobileMenu {
