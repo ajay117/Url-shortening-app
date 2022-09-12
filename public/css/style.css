@@ -32,7 +32,7 @@ header {
 }
 #nav {
     width: 100%;
-    padding: 3rem 12rem;
+    padding: 3rem 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ header {
     display: flex;
     align-items: flex-start;
     height: min-content;
-    padding: 0 12rem;
+    padding: 0 10rem;
     padding-right: 0;
     padding-top: 2rem;
     padding-bottom: 4rem;
@@ -103,14 +103,14 @@ header {
 }
 #main {
     width: 100%;
-    padding: 0 12rem;
+    padding: 0 10rem;
     padding-top: 4.5rem;
     background-color: hsla(0, 0%, 75%,.2);
     margin-top: -4.5rem;
     overflow: hidden;
 }
  #shortenerContainer {
-    padding: 0 12rem;
+    padding: 0 10rem;
 
  }
 #urlContainer {
@@ -294,7 +294,7 @@ header {
     border-radius: 20px;
 }
 .footer {
-    padding: 5rem 12rem;
+    padding: 5rem 10rem;
     background-color:hsl(260, 8%, 14%);
     display: flex;
    gap: 17rem;
