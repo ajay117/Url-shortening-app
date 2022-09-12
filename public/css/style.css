@@ -194,6 +194,7 @@ header {
 .websiteInfoHeader p {
     font-size: 1.2rem;
     color: hsl(0, 0%, 75%);
+    width: 70%;
 }
 .websiteInfoHeader div {
     display: flex;
@@ -236,7 +237,7 @@ header {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
     position: relative;
 }
 .websiteInfoDetails .svg{
@@ -281,12 +282,12 @@ header {
 .preFooter a {
     text-decoration: none;
     font-size: 1.4rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.2rem;
     min-width: 14rem;
     border-radius: 50px;
 }
 .preFooter h4{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
 }
 .preFooter button {
