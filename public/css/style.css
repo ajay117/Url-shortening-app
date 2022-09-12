@@ -13,7 +13,7 @@ body {
     color: white;
     padding: .8rem 1rem;
     font-weight: 700;
-    font-size: .8rem;
+    font-size: 1.1rem;
     border: none;
     border-radius: 15px;
     text-align: center;
@@ -178,7 +178,7 @@ header {
     height: min-content;
     width: 100%;
     padding: 1rem 0;
-    padding-bottom: 8rem;
+    padding-bottom: 7rem;
 }
 .websiteInfoHeader {
     display: flex;
