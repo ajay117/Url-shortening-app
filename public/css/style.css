@@ -272,7 +272,7 @@ header {
     background: hsl(257, 27%, 26%) url('../images/bg-boost-desktop.svg') no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 4.5rem 2rem;
+    padding: 3.9rem 2rem;
    display: flex;
    gap: 1.5rem;
    align-items: center;
@@ -281,13 +281,13 @@ header {
 }
 .preFooter a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding: 1rem 1.2rem;
     min-width: 14rem;
     border-radius: 50px;
 }
 .preFooter h4{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: white;
 }
 .preFooter button {
