@@ -32,7 +32,7 @@ header {
 }
 #nav {
     width: 100%;
-    padding: 3rem 12rem;
+    padding: 3rem 14rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ header {
     display: flex;
     align-items: flex-start;
     height: min-content;
-    padding: 0 12rem;
+    padding: 0 14rem;
     padding-right: 0;
     padding-top: 2rem;
     padding-bottom: 4rem;
@@ -103,14 +103,14 @@ header {
 }
 #main {
     width: 100%;
-    padding: 0 12rem;
+    padding: 0 14rem;
     padding-top: 4.5rem;
     background-color: hsla(0, 0%, 75%,.2);
     margin-top: -4.5rem;
     overflow: hidden;
 }
  #shortenerContainer {
-    padding: 0 12rem;
+    padding: 0 14rem;
 
  }
 #urlContainer {
@@ -127,11 +127,11 @@ header {
     display: flex;
     align-items: center;
     gap: 2rem;
-    padding: 3rem 3rem;
+    padding: 3.2rem 3rem;
 }
 #urlContainer form input {
     border-radius: 5px;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
     width: 80%;
 }
 #urlContainer form input::placeholder {
@@ -145,9 +145,11 @@ header {
     opacity: .3;
 }
 #urlContainer form button {
-    border-radius: 5px;
-    padding: 1rem 1rem;
+    border-radius: 15px;
+    padding: 1.2rem 1rem;
+    min-width: 13rem;
     width: 20%;
+    font-size: 1.5rem;
 }
 
 #results li {
@@ -176,20 +178,21 @@ header {
     height: min-content;
     width: 100%;
     padding: 1rem 0;
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
 }
 .websiteInfoHeader {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-bottom: 3rem;
-    padding-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 7rem;
 }
 .websiteInfoHeader h2{
-    font-size: 2rem;
+    font-size: 2.6rem;
     color: hsl(260, 8%, 14%);
 }
 .websiteInfoHeader p {
+    font-size: 1.2rem;
     color: hsl(0, 0%, 75%);
 }
 .websiteInfoHeader div {
@@ -211,7 +214,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    height: 18rem;
+    height: 24rem;
     
     position: relative;
 }
@@ -228,17 +231,19 @@ header {
     background: white;
     border-radius: 5px;
     height: min-content;
+    min-height: 16rem;
     width: 33%;
-    padding-left: 2rem;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
     position: relative;
 }
 .websiteInfoDetails .svg{
     background-color: hsl(255, 11%, 22%);
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,29 +259,34 @@ header {
     align-self: flex-end;
 }
 .websiteInfoDetails h3{
+    font-size: 1.5rem;
     color: hsl(260, 8%, 14%);
     margin-bottom: 1rem;
 }
 .websiteInfoDetails p{
     color: hsl(0, 0%, 75%);
-    font-size: .8rem;
+    font-size: 1rem;
 }
 .preFooter {
     background: hsl(257, 27%, 26%) url('../images/bg-boost-desktop.svg') no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 2.5rem 2rem;
+    padding: 4.5rem 2rem;
    display: flex;
-   gap: 1rem;
+   gap: 1.5rem;
    align-items: center;
    flex-direction: column;
    justify-content: center;
 }
 .preFooter a {
     text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+    min-width: 14rem;
+    border-radius: 50px;
 }
 .preFooter h4{
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: white;
 }
 .preFooter button {
@@ -284,10 +294,10 @@ header {
     border-radius: 20px;
 }
 .footer {
-    padding: 2rem 12rem;
+    padding: 5rem 14rem;
     background-color:hsl(260, 8%, 14%);
     display: flex;
-    justify-content: space-between;
+   gap: 17rem;
 
 }
 
@@ -303,6 +313,8 @@ header {
 .footer .footerLinks ul li:first-child {
     color: white;
     font-size: .9rem;
+    font-weight: 700;
+    margin-bottom: .8rem;
 }
 .footer .footerLinks ul a {
     font-size: .8rem;
@@ -323,7 +335,7 @@ header {
 
 .footer .footerContent {
     display: flex;
-    gap: 9rem;
+    gap: 8rem;
 }
 .footer .socialmediaLinks {
     height: min-content;
@@ -539,7 +551,7 @@ header {
    }
    .preFooter .button {
     border-radius: 25px;
-    min-width: 12rem;
+    min-width: 11rem;
     font-size: 1rem;
    }
    .footer {
