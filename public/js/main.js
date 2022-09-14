@@ -3,14 +3,20 @@
   const form = document.querySelector('#form')
   const results = document.querySelector('#results')
 
- 
+
 const links = results.childNodes
   const existedLink = results.querySelector('.link')
   let currentUrl = []
   let count = 0
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e)=> {
+    // let allList = document.querySelectorAll('#results li')
+    // let allListArr = Array.from(allList);
+    // let parent = document.querySelector('#results');
+   
+
+    // if(allListArr.length>1) parent.removeChild(allListArr[allListArr.length-1]);
     e.preventDefault();
-    
+
     const input =  document.querySelector('.input')
     const formData = new FormData(form);
     const entries = formData.entries();
@@ -19,8 +25,13 @@ const links = results.childNodes
    
     if (!currentUrl.includes(data.url)) {
       currentUrl.push(data.url)
+      await removeThirdList()
       getLinksData(data.url)
       input.classList.remove('warning')
+      
+   
+    
+
     }
 
     // else if( currentUrl.length>3 && !currentUrl.includes(data.url)) {
@@ -35,6 +46,17 @@ const links = results.childNodes
    
   })
 
+  async function removeThirdList () {
+    if(results.childNodes[3] ) {
+      results.childNodes[2].classList.add('goLeft') //left animation
+      setTimeout(() => {
+        results.removeChild(results.childNodes[3]) //remove from the ul #results
+        results.childNodes[2].classList.remove('goLeft') //remove class
+      }, "500")
+      
+    }
+    // results.removeChild(results.childNodes[2])
+  }
   function existedLinks() {
     const existedLinks = results.querySelector('.originalLink')
     if(existedLinks) return true
@@ -91,7 +113,11 @@ const links = results.childNodes
     shortLinkContainer.appendChild(button)
     container.appendChild(originalLink)
     container.appendChild(shortLinkContainer)
-    results.appendChild(container)
+    results.prepend(container)
+    setTimeout(function() {
+   
+      container.style.opacity = '1'
+    }, 5);
     
   }
   
